@@ -4,6 +4,7 @@
 //It only works if the element occurs n/2 times.
 //Other wise use hashmap, but it will increase 
 //space complexity.
+//g++ -o mooreVotingAlgo mooreVotingAlgo.cpp
 
 int calculateWinner( int a[], int n )
 {

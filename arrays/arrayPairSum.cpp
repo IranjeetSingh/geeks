@@ -1,3 +1,5 @@
+// g++ -o arrayPairSum arrayPairSum.cpp -std=c++11
+
 #include <iostream>
 
 void printPair( int a[], int size, int sum )

@@ -1,5 +1,4 @@
 // g++ -o arrayPairSum arrayPairSum.cpp -std=c++11
-
 #include <iostream>
 
 void printPair( int a[], int size, int sum )
@@ -10,16 +9,13 @@ void printPair( int a[], int size, int sum )
   for( int i = 0 ; i < size ; ++i ) 
   {
     x = sum - a[i] ;
-
     if( (x > 0 ) && (isPresent[(x)]) )
     {
        std::cout << x << " " << a[i] << " " << std::endl ;
     }
-    
     isPresent[a[i]] = true ;
   }
 }
-
 
 int main()
 {
